@@ -2,7 +2,7 @@ My name is Valery, an Electrical Engineer and tech enthusiast.
 I created this account specifically to document my learning journey in public, build discipline and consistency, and develop strong cloud computing foundations.
  
 
-## **Goals of this Learning Journey**
+# ** My Goals of this Learning Journey**
 - Understand cloud computing fundamentals  
 - Gain hands-on skills with servers, storage, networking, and security  
 - Build a portfolio of projects and practical exercises  
