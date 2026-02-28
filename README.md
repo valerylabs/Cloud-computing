@@ -1,5 +1,5 @@
 My name is Valery, an Electrical Engineer and tech enthusiast.
-I created this repository to document my learning journey in public, build discipline and consistency, and develop strong cloud computing foundations.
+I created this account specifically to document my learning journey in public, build discipline and consistency, and develop strong cloud computing foundations.
  
 
 ## **Goals of this Learning Journey**
