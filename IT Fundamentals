@@ -30,8 +30,6 @@ The focus was on understanding how computers process data, different types of co
 Today, I went deeper into how a computer actually works internally.
 Instead of just knowing component names, I focused on understanding how the CPU, memory, and storage interact as a coordinated system.
 
-This session has strengthened my understanding of system architecture and the boot process.
-
 ## Key Topics Covered
 ### 1. Central Processing Unit (CPU)
 The CPU is the brain of the computer. It executes instructions and coordinates all hardware components.
