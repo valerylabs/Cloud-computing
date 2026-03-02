@@ -1,10 +1,8 @@
 # Day 1 – **Introduction to Computing (Foundation Refresh)**
-
 Today, I refreshed core IT fundamentals to re-establish a strong base for cloud computing.  
 The focus was on understanding how computers process data, different types of computing devices, and the flow of information through a system.
 
 ##  Key Topics Covered
-
 ### 1. Computer Basics
 - Computers process data through **input → processing → storage → output**  
 - Difference between **hardware** (physical components) and **software** (programs and instructions)
@@ -26,4 +24,105 @@ The focus was on understanding how computers process data, different types of co
 - Storage– saving data temporarily or long-term  
 - Output - results produced by the computer  
 
-Even though I already had a background in computing, revisiting these fundamentals helped me re-ground my understanding, ensuring a solid foundation before diving into networking and cloud concepts
+
+
+# Day 2 – **CPU Architecture, Memory & Storage Systems**
+Today, I went deeper into how a computer actually works internally.
+Instead of just knowing component names, I focused on understanding how the CPU, memory, and storage interact as a coordinated system.
+
+This session has strengthened my understanding of system architecture and the boot process.
+
+## Key Topics Covered
+### 1. Central Processing Unit (CPU)
+The CPU is the brain of the computer. It executes instructions and coordinates all hardware components.
+* Modern systems use 64-bit architecture
+* A 32-bit processor can only access up to GB of RAM
+* CPUs have cores (physical processing units)
+* Some CPUs use threads for improved multitasking
+* Speed is measured in GHz (clock speed)
+
+#### Important Concept: 32-bit vs 64-bit
+A 32-bit system can only access 2³² memory addresses = 4GB RAM.
+A 64-bit system can access significantly more memory, making it suitable for modern computing.
+
+### 2. The Fetch–Decode–Execute Cycle
+This is how the CPU continuously processes instructions:
+1. Fetch – Retrieve instruction from RAM
+2. Decode – Interpret the instruction
+3. Execute – Perform the operation
+This happens billions of times per second.
+For example, a 3GHz processor can perform roughly 3 billion cycles per second.
+
+### 3. Memory Hierarchy
+Not all memory operates at the same speed.
+Memory speed hierarchy (fastest to slowest):
+Registers → Cache → RAM → SSD/HDD
+
+* Registers – tiny storage inside the CPU holding active data
+* Cache (L1, L2, L3) – small, high-speed memory close to CPU cores
+* RAM – temporary working memory
+* SSD/HDD– long-term storage
+The closer the memory is to the CPU, the faster it operates.
+
+### 4. RAM (Random Access Memory)
+RAM is temporary memory used for running programs.
+* Stores active processes
+* Clears when power is off
+* Types include DDR3, DDR4, DDR5
+
+#### Virtual Memory
+When RAM becomes full:
+* The system uses part of the storage drive as temporary memory
+* Called **Page File (Windows)** or **Swap Space (Linux)**
+Because storage is slower than RAM, this causes system lag.
+
+### 5. ROM (Read Only Memory)
+ROM stores firmware such as BIOS/UEFI.
+It:
+* Starts the system
+* Performs hardware checks (POST)
+* Loads the operating system from storage into RAM
+
+Important clarification I made today:
+The operating system is stored on the SSD or HDD — not in ROM.
+
+### 6. Storage Devices
+#### HDD (Hard Disk Drive)
+* Mechanical (spinning disks)
+* Slower
+* Cheaper
+* Used for large storage
+
+#### SSD (Solid State Drive)
+* No moving parts
+* Faster
+* Stores operating system permanently
+
+**SSD Interfaces: SATA vs NVMe**
+- SATA SSD → slower (~550 MB/s), uses SATA cable, still faster than HDD  
+- NVMe SSD → much faster (3,000–7,000 MB/s), uses PCIe/M.2, lower latency  
+- Analogy: SATA = regular highway, NVMe = express lane
+
+### 7. Partitions & File Systems
+A partition divides a physical drive into logical sections (e.g., C: drive).
+File systems organize stored data.
+Common examples:
+* NTFS (Windows)
+* FAT32 / exFAT (USB drives)
+* ext4 (Linux)
+Without a file system, storage would not be structured or usable.
+
+### 8. System Boot Process
+When the power button is pressed:
+Power On → ROM (BIOS/UEFI) → Hardware Check →
+Bootloader → OS loaded from SSD → OS loaded into RAM → CPU executes OS
+This explains why the operating system does not disappear after shutdown — it is permanently stored on the SSD.
+
+I now clearly understand:
+* The role of BIOS in system startup
+* The difference between temporary and permanent memory
+* Why 64-bit systems are standard today
+* How memory hierarchy impacts performance
+* Why low RAM causes disk usage spikes
+
+
