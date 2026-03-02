@@ -116,11 +116,5 @@ Power On → ROM (BIOS/UEFI) → Hardware Check →
 Bootloader → OS loaded from SSD → OS loaded into RAM → CPU executes OS
 This explains why the operating system does not disappear after shutdown — it is permanently stored on the SSD.
 
-I now clearly understand:
-* The role of BIOS in system startup
-* The difference between temporary and permanent memory
-* Why 64-bit systems are standard today
-* How memory hierarchy impacts performance
-* Why low RAM causes disk usage spikes
 
 
