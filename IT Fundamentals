@@ -71,7 +71,7 @@ RAM is temporary memory used for running programs.
 #### Virtual Memory
 When RAM becomes full:
 * The system uses part of the storage drive as temporary memory
-* Called **Page File (Windows)** or **Swap Space (Linux)**
+* Called Page File (Windows) or Swap Space (Linux)
 Because storage is slower than RAM, this causes system lag.
 
 ### 5. ROM (Read Only Memory)
@@ -114,7 +114,7 @@ Without a file system, storage would not be structured or usable.
 When the power button is pressed:
 Power On → ROM (BIOS/UEFI) → Hardware Check →
 Bootloader → OS loaded from SSD → OS loaded into RAM → CPU executes OS
-This explains why the operating system does not disappear after shutdown — it is permanently stored on the SSD.
+This explains why the operating system does not disappear after shutdown, it is permanently stored on the SSD.
 
 
 
